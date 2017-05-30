@@ -1,25 +1,7 @@
-# README
+# Uchida sakusen
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This application is created for Uchida sakusen.
 
-Things you may want to cover:
+## LICENSE
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# uchida_sakusen
+Copyright UchidaSakusen Co,.Ltd. All rights reserved.
