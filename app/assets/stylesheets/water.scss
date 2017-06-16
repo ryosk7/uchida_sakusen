@@ -1,0 +1,33 @@
+.water {
+  padding:0;
+  background:rgba(115, 196, 255, 1);
+  margin:0;
+
+  input {
+    border:1px solid #ccc;
+    background-color:#fff;
+    font-size:10px;
+    padding:2px 5px;
+  }
+
+  h1 {
+    color: #5e616f;
+  }
+
+  p {
+    color: #5e616f;
+  }
+
+  .water-title {
+    position:absolute;
+    z-index: 999;
+    right: 40px;
+    top: 210px;
+    color: #ccc;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 28px;
+  }
+
+}
+
