@@ -1,5 +1,23 @@
 .owl-item {
-  width: 235px;
+  // width: 256px;
+  .block1 {
+    width: 256px;
+  }
+
+  .block2 {
+    width: 256px;
+    .thumbnail {
+      margin-right: 300px;
+    }
+  }
+
+  .block3 {
+    width: 256px;
+  }
+
+  .block4 {
+    width: 424px;
+  }
 }
 
 .background-img {
@@ -9,3 +27,15 @@
   background-attachment: fixed;
   color: #ffffff;
 }
+
+.flex-box {
+  // display: flex;
+  // justify-content: space-between;
+  // align-items: center;
+}
+
+.thumbnail {
+  margin-bottom: 0px !important;
+  border: 0px;
+}
+
