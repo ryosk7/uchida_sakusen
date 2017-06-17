@@ -1,5 +1,48 @@
 .home-card {
-  width: 100%;
   text-align: center;
   margin: 0 auto;
+  background-color: #c7c7c7;
+  .home-card-1 {
+    background-color: #202781;
+
+    p {
+      padding: 6px;
+      color: white;
+      font-size: 20px;
+      font-weight: bolder;
+    }
+  }
+
+  .home-card-2 {
+    background-color: #ff4200;
+
+    p {
+      padding: 6px;
+      color: white;
+      font-size: 20px;
+      font-weight: bolder;
+    }
+  }
+
+  .home-card-3 {
+    background-color: #025a01;
+
+    p {
+      padding: 6px;
+      color: white;
+      font-size: 20px;
+      font-weight: bolder;
+    }
+  }
+
+  .home-card-4 {
+    background-color: #ffc000;
+
+    p {
+      padding: 6px;
+      color: white;
+      font-size: 20px;
+      font-weight: bolder;
+    }
+  }
 }
