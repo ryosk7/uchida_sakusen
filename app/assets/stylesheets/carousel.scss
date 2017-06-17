@@ -47,12 +47,14 @@ body{
     }
 }
 .carousel-caption {
-    text-shadow: 0 1px 4px rgba(0,0,0,.9);
-  font-size:17px
+  text-shadow: 0 1px 4px rgba(0,0,0,.9);
+  font-size:17px;
+  // color: #73c4ff;
 }
 .carousel-caption h3 {
   font-size: 30px;
   font-family: 'Lato', sans-serif;
+  // color: #73c4ff;
 }
     html,
     body,
@@ -62,28 +64,36 @@ body{
       height: 100%;
     }
     .item:nth-child(1) {
-      background: url('https://snap-photos.s3.amazonaws.com/img-thumbs/960w/HZZKGVVJ6I.jpg');
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+      background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%),
+      url('http://res.cloudinary.com/dmzlfjx06/image/upload/v1497697385/mizu-ido_ojyhev.jpg');
+      // background: url('http://res.cloudinary.com/dmzlfjx06/image/upload/v1497697385/mizu-ido_ojyhev.jpg');
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
     }
 
     .item:nth-child(2) {
-      background: url('https://snap-photos.s3.amazonaws.com/img-thumbs/960w/D2ROMCUEIV.jpg');
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+      background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%),
+      url('http://res.cloudinary.com/dmzlfjx06/image/upload/v1497697385/tyosa-bunseki_ydnnb3.jpg');
+      // background: url('http://res.cloudinary.com/dmzlfjx06/image/upload/v1497697385/tyosa-bunseki_ydnnb3.jpg');
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
     }
 
     .item:nth-child(3) {
-      background: url('https://snap-photos.s3.amazonaws.com/img-thumbs/960w/PU9HHZB5QW.jpg');
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+      background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%),
+      url('http://res.cloudinary.com/dmzlfjx06/image/upload/v1497697384/onsen-ido_zg08ve.jpg');
+      // background: url('http://res.cloudinary.com/dmzlfjx06/image/upload/v1497697384/onsen-ido_zg08ve.jpg');
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
     }
 
     .item:nth-child(4) {
-      background: url('https://snap-photos.s3.amazonaws.com/img-thumbs/960w/PU9HHZB5QW.jpg');
+      background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%),
+      url('http://res.cloudinary.com/dmzlfjx06/image/upload/v1497697385/haikan-koji_aupexe.jpg');
+      // background: url('http://res.cloudinary.com/dmzlfjx06/image/upload/v1497697385/haikan-koji_aupexe.jpg');
       background-size: cover;
       background-position: center center;
       background-repeat: no-repeat;
